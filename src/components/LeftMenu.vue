@@ -1,17 +1,17 @@
 <template>
-  <div class="contentRight">
-    <ul class="mainNav">
+  <div class='contentRight'>
+    <ul class='mainNav'>
       <li></li>
       <li>
-        <a href="./en/aboutjia.html" title="Me">ME</a>
-        <ul class="subNav borderRadius">
+        <a href='./en/aboutjia.html' title='Me'>ME</a>
+        <ul class='subNav borderRadius'>
           <li>
-            <a href="./en/aboutjia.html" title="Experience">Experience</a>
+            <a href='./en/aboutjia.html' title='Experience'>Experience</a>
           </li>
         </ul>
       </li>
       <li>
-        <router-link to="./about">About</router-link>
+        <router-link to='./about'>About</router-link>
       </li>
     </ul>
   </div>
@@ -19,8 +19,8 @@
 
 <script>
 export default {
-  name: "LeftMenu"
-};
+  name: 'LeftMenu'
+}
 </script>
 
 <style scoped>

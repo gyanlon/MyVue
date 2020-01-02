@@ -1,17 +1,17 @@
 <template>
-  <div id="app">
+  <div id='app'>
     <MainPage/>
   </div>
 </template>
 
 <script>
-import MainPage from "@/views/MainPage.vue";
+import MainPage from '@/views/MainPage.vue'
 export default {
-  name: "App",
+  name: 'App',
   components: {
     MainPage
   }
-};
+}
 </script>
 
 <style>

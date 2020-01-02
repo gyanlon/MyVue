@@ -1,21 +1,19 @@
 <template>
   <div>
     <!-- BEGIN OF RESULTS -->
-    <BusinessCard />
+    <router-view/>
     <SkillSvg />
   </div>
 </template>
 
 <script>
-import BusinessCard from "@/components/BusinessCard.vue";
-import SkillSvg from "@/components/SkillSvg.vue";
+import SkillSvg from '@/components/SkillSvg.vue'
 export default {
-  name: "ContentArea",
+  name: 'ContentArea',
   components: {
-    SkillSvg,
-    BusinessCard
+    SkillSvg
   }
-};
+}
 </script>
 
 <style scoped>
