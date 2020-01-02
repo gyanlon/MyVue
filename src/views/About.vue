@@ -4,10 +4,9 @@
       <div class='row margin centered'>
         <div class='span8 borderRadius noFloat inputFields noOverflow' style='height:auto'>
           <div>
-            <!-- <img src='@/assets/images/vue.png' />
-            <img src='@/assets/images/router.png' />
+            <img src='@/assets/images/vue.png' />
             <img src='@/assets/images/python.png' />
-            <img src='@/assets/images/flask.png' /> -->
+            <img src='@/assets/images/flask.png' />
           </div>
         </div>
       </div>

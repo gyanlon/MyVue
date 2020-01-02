@@ -11,6 +11,11 @@ export default new Router({
       path: '/',
       name: 'BusinessCard',
       component: BusinessCard
+    },    
+    {
+      path: '/me',
+      name: 'BusinessCard',
+      component: BusinessCard
     },
     {
       path: '/about',
