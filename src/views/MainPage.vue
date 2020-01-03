@@ -4,19 +4,22 @@
     <Header />
     <LeftMenu />
     <ContentArea />
+    <FeedbackBox />
   </div>
 </template>
 
 <script>
-import ContentArea from '@/views/ContentArea.vue'
-import LeftMenu from '@/components/LeftMenu.vue'
-import Header from '@/components/Header.vue'
+import ContentArea from "@/views/ContentArea.vue"
+import LeftMenu from "@/components/LeftMenu.vue"
+import Header from "@/components/Header.vue"
+import FeedbackBox from "@/components/FeedbackBox.vue"
 export default {
-  name: 'MainPage',
+  name: "MainPage",
   components: {
     ContentArea,
     LeftMenu,
-    Header
+    Header,
+    FeedbackBox
   }
 }
 </script>
